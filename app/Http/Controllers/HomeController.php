@@ -28,6 +28,8 @@ class HomeController extends Controller
         $response = $this->curl($data,$end_url); 
 
         dd($response);
+
+        
     }
 
 }
